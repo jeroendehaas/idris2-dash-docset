@@ -1,0 +1,17 @@
+{
+    "name": "Idris2",
+    "package": "idris2",
+    "index": "index.html",
+    "selectors": {
+	"#module-header h1": "Module",
+	"a.package": "Package",
+	"h2 + dl.decls > dt > code > span.keyword:first-child + a.type > span.name.type": "Type",
+	"h2 + dl.decls > dt > code > span.keyword:first-child + span.resolved.type > span.name.type": "Type",
+	"h2 + dl.decls > dt > code > a:first-child > span.function": "Function",
+	"h2 + dl.decls > dt > code > span.type.resolved:first-child > span.function": "Function",
+	"h2 + dl.decls > dt + dd > dl > dt > code > a:first-child > span.name.constructor" : "Constructor",
+	"h2 + dl.decls > dt + dd > dl > dt > code > span.type.resolved:first-child > span.name.constructor" : "Constructor"
+    },
+    "allowJS": false,
+    "ExternalURL": "https://www.idris-lang.org/docs/idris2/current/"
+}
